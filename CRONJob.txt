@@ -1,0 +1,191 @@
+
+
+####################### Chennai -ROTN Hourly ##########################################
+#10 11-20 * * * ps -ef | grep -v grep | grep getChennaiCHNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/CHN/getChennaiCHNhourlyreports.pl
+###25 11-20 * * * ps -ef | grep -v grep | grep getChennaihourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/CHN/getChennaihourlyreports.pl
+
+
+#13 11-20 * * *  /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/CHN/sendmail.php
+###54 11-20 * * *  /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/CHN/sendmail.php
+#16 11-20 * * *  /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/CHN/move.php
+
+#13 11-20 * * * ps -ef | grep -v grep | grep getChennaiROTNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/ROTN/getChennaiROTNhourlyreports.pl
+
+#17 11-20 * * *  /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/ROTN/sendmail.php
+#21 11-20 * * *  /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/ROTN/move.php
+
+
+
+############################  Hungama Houlry ###################################################################
+##15 11-20 *  *  * ps -ef | grep -v grep | grep getChennaiHUNCHNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/HUN/CHN/getChennaiHUNCHNhourlyreports.pl
+
+##18 11-20  *  *  *   /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/HUN/CHN/sendmail.php
+##20 11-20  *  *  *  /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/HUN/CHN/move.php
+
+#16 11-20  *  *  *  ps -ef | grep -v grep | grep getChennaiHUNROTNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/HUN/ROTN/getChennaiHUNROTNhourlyreports.pl
+#19 11-20   *  *  *  /usr/bin/php       /home/tanla/Chennai-Smart_OBD/hourly/HUN/ROTN/sendmail.php
+#22 11-20  *  *  *  /usr/bin/php       /home/tanla/Chennai-Smart_OBD/hourly/HUN/ROTN/move.php 
+############################  Hungama Houlry #########################################################
+
+############################  197  ###################################################################
+#16 11-20 *  *  * ps -ef | grep -v grep | grep getChennai197CHNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/197/CHN/getChennai197CHNhourlyreports.pl
+
+#20 11-20  *  *  *   /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/197/CHN/sendmail.php
+#22 11-20  *  *  *  /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/197/CHN/move.php
+
+#16 11-20  *  *  *  ps -ef | grep -v grep | grep getChennai197ROTNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/197/ROTN/getChennai197ROTNhourlyreports.pl
+
+#20 11-20   *  *  *  /usr/bin/php       /home/tanla/Chennai-Smart_OBD/hourly/197/ROTN/sendmail.php
+#22 11-20  *  *  *  /usr/bin/php       /home/tanla/Chennai-Smart_OBD/hourly/197/ROTN/move.php
+############################  197 #########################################################
+
+
+##################### ALT Hourly #########################################
+#19 11-20  *  *  *  ps -ef | grep -v grep | grep getChennaiALTCHNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/ALT/CHN/getChennaiALTCHNhourlyreports.pl
+#22 11-20  *  *  *    /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/ALT/CHN/sendmail.php
+#30 11-20   *  *  *    /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/ALT/CHN/move.php
+
+#21 11-20 *  *  * ps -ef | grep -v grep | grep getChennaiALTROTNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/ALT/ROTN/getChennaiALTROTNhourlyreports.pl
+
+#24 11-20  *  *  * /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/ALT/ROTN/sendmail.php
+
+#31 11-20  * * * /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/ALT/ROTN/move.php
+
+##################### ALT Hourly #########################################
+
+
+#######################CLA Hourly ####################################################
+##22 11-20  *  *  * ps -ef | grep -v grep | grep getChennaiCLACHNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/CLA/CHN/getChennaiCLACHNhourlyreports.pl
+##24  11-20 *  *  * /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/CLA/CHN/sendmail.php
+##28 11-20  *  *  * /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/CLA/CHN/move.php
+
+#24 11-20 *  *  * ps -ef | grep -v grep | grep getChennaiCLAROTNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/CLA/ROTN/getChennaiCLAROTNhourlyreports.pl
+#27 11-20 *  *  * /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/CLA/ROTN/sendmail.php
+
+#30 11-20 *  *  * /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/CLA/ROTN/move.php
+
+#######################CLA Hourly ####################################################
+
+##########################MOG Houly#################################################################
+##25 11-20  *  *  *  ps -ef | grep -v grep | grep getChennaiMOGCHNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/MOG/CHN/getChennaiMOGCHNhourlyreports.pl
+##28  11-20  *  *  * /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/MOG/CHN/sendmail.php
+##33  11-20  *  *  * /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/MOG/CHN/move.php
+
+
+#26 11-20  *  *  *  ps -ef | grep -v grep | grep getChennaiMOGROTNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/MOG/ROTN/getChennaiMOGROTNhourlyreports.pl
+
+#29 11-20  *  *  * /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/MOG/ROTN/sendmail.php
+
+#33 11-20  *  *  * /usr/bin/php  /home/tanla/Chennai-Smart_OBD/hourly/MOG/ROTN/move.php
+
+#########################################################################################################
+
+
+
+
+################### Techzone Hourly ###########################################
+
+#   10 11-20 * * *  ps -ef | grep -v grep | grep getChennaiTECHZONECHNhourlyreports.pl >> /dev/null || perl /home/tanla/Chennai-Smart_OBD/hourly/TECHZONE/getChennaihourlyreports.pl
+
+#14 11-20 * * * /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/TECHZONE/sendmail.php
+#16 11-20 * * * /usr/bin/php /home/tanla/Chennai-Smart_OBD/hourly/TECHZONE/move.php
+
+################### Techzone Hourly ###########################################
+
+###################### Chennai -ROTN MIS ##########################################
+16 6 * * * ps -ef | grep -v grep | grep getROTNMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/ROTN/getROTNMISreports.pl
+19 6 * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/ROTN/sendmail.php
+21 6 * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/ROTN/move.php
+
+19 6  * * * ps -ef | grep -v grep | grep getCHNMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/CHN/getCHNMISreports.pl
+21 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/CHN/sendmail.php
+25 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/CHN/move.php
+
+21 6  * * * ps -ef | grep -v grep | grep getIMIMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/IMI/getIMIMISreports.pl
+23 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/IMI/sendmail.php
+25 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/IMI/move.php
+
+23 6  * * * ps -ef | grep -v grep | grep getMOGMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/MOG/getMOGMISreports.pl
+25 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/MOG/sendmail.php
+27 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/MOG/move.php
+
+25 6  * * * ps -ef | grep -v grep | grep get197MISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/197/get197MISreports.pl
+28 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/197/sendmail.php
+30 6  * * *  /usr/bin/php        /home/tanla/reports/TamilNadu/MIS/197/move.php
+
+28 6  * * * ps -ef | grep -v grep | grep getTechZoneMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/TechZone/getTechZoneMISreports.pl
+31 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/TechZone/sendmail.php
+34 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/TechZone/move.php
+
+29 6  * * * ps -ef | grep -v grep | grep getCLAMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/CLA/getCLAMISreports.pl
+32 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/CLA/sendmail.php
+35 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/CLA/move.php
+
+30 6  * * * ps -ef | grep -v grep | grep getALTMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/ALT/getALTMISreports.pl
+33 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/ALT/sendmail.php
+37 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/ALT/move.php
+
+32 6  * * * ps -ef | grep -v grep | grep getHUNMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/HUN/getHUNMISreports.pl
+35 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/HUN/sendmail.php
+39 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/HUN/move.php
+
+33 6  * * * ps -ef | grep -v grep | grep get3GMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/TamilNadu/3G/get3GMISreports.pl
+36 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/3G/sendmail.php
+39 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/TamilNadu/3G/move.php
+
+###################### NORMAL OBD MIS ##########################################
+
+33 6  * * * ps -ef | grep -v grep | grep getkerMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/kerala/getkerMISreports.pl
+36 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/kerala/sendmail.php
+39 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/kerala/move.php
+
+35 6  * * * ps -ef | grep -v grep | grep getDelMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/Delhi/getDelMISreports.pl
+37 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Delhi/sendmail.php
+39 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Delhi/move.php
+
+37 6  * * * ps -ef | grep -v grep | grep getDelRCMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/Delhi/RC/getDelRCMISreports.pl
+39 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Delhi/RC/sendmail.php
+42 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Delhi/RC/move.php
+
+39 6  * * * ps -ef | grep -v grep | grep getHPMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/HP/getHPMISreports.pl
+42 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/HP/sendmail.php
+45 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/HP/move.php
+
+#41 6  * * * ps -ef | grep -v grep | grep getROMMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/ROM/getROMMISreports.pl
+#43 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/ROM/sendmail.php
+#46 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/ROM/move.php
+
+43 6  * * * ps -ef | grep -v grep | grep getMUMMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/Mumbai/getMUMMISreports.pl
+46 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Mumbai/sendmail.php
+49 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Mumbai/move.php
+
+43 6  * * * ps -ef | grep -v grep | grep getMUMONMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/Mumbai/OnMObile/getMUMONMISreports.pl
+46 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Mumbai/OnMObile/sendmail.php
+49 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Mumbai/OnMObile/move.php
+
+45 6  * * * ps -ef | grep -v grep | grep getHarMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/Haryana/getHarMISreports.pl
+49 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Haryana/sendmail.php
+51 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Haryana/move.php
+
+47 6  * * * ps -ef | grep -v grep | grep getHARREALMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/Haryana/REAL/getHARREALMISreports.pl
+50 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Haryana/REAL/sendmail.php
+53 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Haryana/REAL/move.php
+
+49 6  * * * ps -ef | grep -v grep | grep getUPEMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/UPE/getUPEMISreports.pl
+53 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/UPE/sendmail.php
+56 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/UPE/move.php
+
+51 6  * * * ps -ef | grep -v grep | grep getUPEMISreports.pl >> /dev/null || perl /home/tanla/reports/MIS/Haryana/MOGAE/getHarMOGAEMISreports.pl
+55 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Haryana/MOGAE/sendmail.php
+58 6  * * *  /usr/bin/php        /home/tanla/reports/MIS/Haryana/MOGAE/move.php
+
+#################################################### HOURLY REPORT #################################################################
+
+12 11-20   *  *  * ps -ef | grep -v grep | grep SENDMAIL.sh >> /dev/null ||  sh /root/SENDMAIL.sh
+8 11-20   *  *  * ps -ef | grep -v grep | grep dummycron.sh >> /dev/null ||  sh /root/dummycron.sh
+
+
+
+
+
+

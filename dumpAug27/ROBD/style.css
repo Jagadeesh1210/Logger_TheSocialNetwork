@@ -1,0 +1,116 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ background: ;
+}
+body{ background-color:#e5e3dd; background-image:url(images/bg_site.gif); background-position:top; background-repeat:repeat-x; border-top:5px #dbd9d7 solid; font-size:12px; color:#000; line-height:18px; font-family:Arial, Helvetica, sans-serif}
+
+a       { color:#000; text-decoration:underline; font-size:12px; font-family:Arial, Helvetica, sans-serif}
+a:link  { color:#000; text-decoration:underline;}
+a:hover { color:#000; text-decoration:none;}
+a:active{ color:#000; text-decoration:underline;}
+
+.clear  {clear:both;}
+.page{ top:0; left:50%; margin-left:-500px; position:absolute}
+.left{ float:left}
+.right{ float:right}
+/* bg   -----------------------------------------------------------------------------*/ 
+.footer{ background-color:#d5d0cb; font-size:14px; color:#fff; padding-top:15px; font-weight:bold; padding-left:20px; line-height:20px}
+.bg_brown{ background-color:#595148; color:#fff; }
+
+.line_border{ height:1px!important; border-bottom: solid #a59787 1px;  border-top: solid #a59787 1px; display:block;}
+
+.bg_brown div.left { padding-top:50px; padding-left:10px;}
+.bg_brown div.left a{ margin:0px 15px; text-decoration:none; color:#efefeb; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.bg_brown div.left a:hover{ text-decoration:underline}
+
+strong.big_text{ font-size:18px; display:block; margin-bottom:8px}
+strong.med_text{ font-size:14px; display:block; margin-bottom:8px}
+
+.bg_brown div.right{ padding-top:30px}
+.bg_brown div.right div{ margin-right:55px; float:right;}
+.bg_brown div.right div img{ margin:2px 6px 0px 0px ; float:left}
+.bg_brown div.right div a{ color:#fff; line-height:20px}
+
+.header{ background:url(images/header.jpg) top right no-repeat; background-color:#595148; color:#d6cbbe}
+.header div{ margin-top:50px; margin-left:40px; font-size:30px; line-height:40px; font-family:"Times New Roman", Times, serif}
+.header strong{ font-size:72px; font-weight:normal; line-height:70px; color:#fefdfd}
+.header small{ font-family:"Times New Roman", Times, serif; font-size:20px; font-style:italic; color:#efefeb; font-weight:bold; display:block; margin-left:200px; }
+.header b{  display:block; float:left; margin-left:-20px}
+
+
+.top div.left { margin-top:20px; margin-left:10px}
+.top div.left a{ display:block; width:195px; height:34px; background:url(images/logo.gif) top no-repeat; margin-top:10px}
+.top div.left a h1{ text-indent:-990px; color:#fff; font-size:1px}
+
+.top div.right{ margin-top:30px; margin-right:-6px}
+.top div.right a{ display:block; float:left; text-align:center; line-height:35px; text-decoration:none; color:#735e46; font-size:18px; font-family:Arial, Helvetica, sans-serif;}
+.top div.right a span{ padding:0px 23px; display:block; margin-right:6px}
+.top div.right a:hover span, a.act span{ background:url(images/bg_pin_right.gif) right no-repeat;padding:0px 23px; display:block; color:#fff}
+.top div.right a:hover, a.act{ background:url(images/bg_pin_left.gif) left no-repeat; color:#fff}
+
+.text{ margin:20px}
+.text h2{ font-size:24px; font-family:Arial, Helvetica, sans-serif; color:#efefeb; font-weight:normal; margin-bottom:10px}
+h2{ font-size:24px; font-family:Arial, Helvetica, sans-serif; color:#000; font-weight:normal; margin-bottom:18px; margin-top:10px}
+
+.list a, .services a{ display:block; margin-bottom:12px; padding-left:14px; background:url(images/arrow.gif) 0px 7px no-repeat}
+
+a.read{ margin:0; padding:0; background:none; float:right; display:block; color:#877864; text-decoration:underline; font-weight:bold; margin-right:6px; margin-top:4px}
+a.read:hover{ text-decoration:none}
+
+a.more{ margin:0; padding:0; background:none; float:left; display:block; color:#877864; text-decoration:underline; font-weight:bold; margin-right:6px; margin-top:8px}
+a.more:hover{ text-decoration:none}
+
+div.block{ color:#000; padding-left:16px; background:url(images/disk.gif) 0px 5px  no-repeat; margin-bottom:34px}
+div.block_2{ color:#000; padding-left:16px; background:url(images/arrow.gif) 0px 5px  no-repeat; margin-bottom:16px}
+.about{ padding-left:0px; padding-right:20px}
+strong.block{ display:block; margin-bottom:12px}
+.about a{display:block; margin-bottom:12px; padding-left:16px; background:url(images/disk.gif) 0px 5px no-repeat}
+
+.bg_brown div.text div, div.context{ padding-left:240px; margin-bottom:38px}
+h2.enother{ margin-bottom:24px}
+div.context {margin-top:-4px}
+.services{ padding-left:20px; }
+
+img.photo{ margin-bottom:20px}
+img.contacts{ margin-right:20px; margin-top:4px; margin-bottom:10px}
+
+/*   -----------------------------------------------------------------------------*/ 
+
+.green{ color:#64a101;}
+.red { color:#FF0000;}
+.white {color:#FFFFFF;}
+
+
+.submit_registry{background-color:#000;
+	width:100px;
+	height:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#877864;
+	border:1px solid #d2dce6; font-weight:bold}
+	
+.input_contact{background-color:#fff;
+	width:450px;
+	height:17px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#584c3f;
+	border:1px solid #d2dce6;}
+	
+.textarea_contact{background-color:#fff;
+	width:450px;
+	height:140px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#584c3f;
+	border:1px solid #d2dce6;}
+	
+.select{background-color:#fff;
+	width:150px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#584c3f;
+	border:1px solid #d2dce6;}
