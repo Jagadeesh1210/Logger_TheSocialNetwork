@@ -1,0 +1,4 @@
+
+create table Users (uid int(11) NOT NULL auto_increment,vcUName varchar(100) NOT NULL,vcPWord varchar(100) NOT NULL, PRIMARY KEY(uid));
+create table NoticeBoard(iSNo int(11) NOT NULL auto_increment,Notice text NOT NULL, PRIMARY KEY(iSNo));
+create table UserLogs(iSNo int(11) NOT NULL auto_increment,vcUName varchar(100) NOT NULL,vcCName varchar(100) NOT NULL,vcStatus varchar(100) NOT NULL,dtDate date NOT NULL,txtDescription text NOT NULL,PRIMARY KEY(iSNo));
